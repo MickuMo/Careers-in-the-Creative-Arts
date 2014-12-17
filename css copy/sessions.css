@@ -1,0 +1,44 @@
+section.track {
+    padding:5px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+/*
+======================
+Creative Writing Style
+======================
+*/
+section.cWriting h2{
+    background-color:#57b3e3;
+    padding:10px;
+}
+
+/*
+======================
+Fine Arts Style
+======================
+*/
+section.fArts h2{
+    background-color:#dd8438;
+    padding:10px;
+}
+
+/*
+======================
+Performing Arts Style
+======================
+*/
+section.pArts h2{
+    background-color:#23a704;
+    padding:10px;
+}
+
+/*
+======================
+Media Arts Style
+======================
+*/
+
+section.mArts h2{
+    background-color:#8833c7;
+    padding:10px;
+}

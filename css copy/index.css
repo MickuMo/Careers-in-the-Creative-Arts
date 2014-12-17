@@ -1,0 +1,61 @@
+main#indexContent h1{
+    margin: 0 0 10px 10px;
+}
+
+/*=========
+Introduction style
+===========*/
+.intro{
+    background-color:rgba(222, 235, 239, 0.52);
+    padding: 10px 10px 1px 10px;
+}
+
+/*=========
+Date style
+===========*/
+.date{
+    padding: 10px 10px 0 10px;
+}
+
+.date p{
+    font-style:italic;
+}
+
+/*=========
+Location style
+===========*/
+.location{
+    background-color:rgba(222, 235, 239, 0.52);
+    padding: 0 10px 0 10px;
+}
+
+/*=========
+Date style
+===========*/
+.featuredSpeaker{
+    padding: 0 10px 10px 10px;
+}
+
+/*=========
+Workshop style
+===========*/
+.workshopWrapper{
+    background-color:rgba(222, 235, 239, 0.52);
+    padding: 0 10px 10px 10px;
+}
+
+section.cWriting h4{
+    color:#57b3e3;
+}
+
+section.fArts h4{
+    color:#dd8438;
+}
+
+section.pArts h4{
+    color:#23a704;
+}
+
+section.mArts h4{
+    color:#8833c7;
+}

@@ -1,0 +1,91 @@
+article#speakersContent {
+    h2{
+        padding: 5px 10px 5px 10px;    
+    }
+    .speaker img {
+        float: left;
+        padding: 0 10px 0 0;
+    }
+    .clear {
+        clear: both;
+    }
+    section.speakers {
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 10px;
+    }
+    section.creative-arts,
+    .performing-arts {
+         
+    }
+    .speaker {
+        margin-bottom: 5px;
+        overflow: hidden;
+    }
+    /*
+=============================
+Creative Arts Speaker's Style
+=============================
+*/
+    .creative-arts .speaker h3 {
+        margin-bottom: 10px;
+    }
+    /*
+=============================
+Fine Arts Speaker's Style
+=============================
+*/
+    .fine-arts .speaker h3 {
+        margin-bottom: 10px;
+    }
+    /*
+=============================
+Performing Arts Speaker's Style
+=============================
+*/
+    .performing-arts .speaker h3 {
+        margin-bottom: 10px;
+    }
+    /*
+=============================
+Media Arts Speaker's Style
+=============================
+*/
+    .media-arts .speaker h3 {
+        margin-bottom: 10px;
+    }
+    
+    // 	==========================================
+	//	SMALL LAYOUT
+	//	==========================================
+	@include respond-to(small){
+        
+		
+
+	}
+	//end small
+
+
+
+	// 	==========================================
+	//	MEDIUM LAYOUT
+	//	==========================================
+	@include respond-to(medium){
+
+		
+
+	}
+	//end Medium
+
+
+
+
+	// 	==========================================
+	//	LARGE LAYOUT
+	//	==========================================
+	@include respond-to(large){
+        
+		
+
+	}
+	//end Large
+}

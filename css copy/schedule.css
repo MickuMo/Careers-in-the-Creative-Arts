@@ -1,0 +1,34 @@
+.time{
+    font-style:italic;
+}
+
+section.track .cWriting{
+    color:#57b3e3;
+}
+
+section.track .fArts{
+    color:#dd8438;
+}
+
+section.track .pArts{
+    color:#23a704;
+}
+
+section.track .mArts{
+    color:#8833c7;
+}
+
+section.opening, .lunch, .closing {
+    padding: 5px 10px 5px 10px;
+    margin-bottom:10px;
+}
+
+section.session {
+    background-color:rgba(222, 235, 239, 0.52);
+    padding: 5px 10px 5px 10px;
+    margin-bottom:10px;
+}
+
+p.room {
+    margin-top:10px;
+}

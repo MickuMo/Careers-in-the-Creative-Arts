@@ -1,0 +1,94 @@
+article#sessionsContent {
+    section.track {
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 10px;
+    }
+/*
+======================
+Creative Writing Style
+======================
+*/
+    section.cWriting h2 {
+        background-color: #FFDF73;
+        padding: 10px;
+    }
+/*
+======================
+Fine Arts Style
+======================
+*/
+    section.fArts h2 {
+        background-color: #FFDF73;
+        padding: 10px;
+    }
+/*
+======================
+Performing Arts Style
+======================
+*/
+    section.pArts h2 {
+        background-color: #FFDF73;
+        padding: 10px;
+    }
+/*
+======================
+Media Arts Style
+======================
+*/
+    section.mArts h2 {
+        background-color: #FFDF73;
+        padding: 10px;
+    }
+// 	==========================================
+//	SMALL LAYOUT
+//	==========================================
+    @include respond-to(small) {
+    
+    
+    
+    }//end small
+    
+// 	==========================================
+//	MEDIUM LAYOUT
+//	==========================================
+    @include respond-to(medium) {
+        .track {
+            @include cols(1, 2);
+        }
+        .track.three{
+         clear:both;   
+        }
+        .trackWrapper{
+            clear:both;
+            @include clearfix;
+        }
+    }
+    //end Medium
+    
+// 	==========================================
+//	LARGE LAYOUT
+//	==========================================
+    @include respond-to(large) {
+        .trackWrapper {
+            @include cols(1, 2);
+            clear:none;
+        }
+        
+        .track{
+            @include no-cols;
+        }
+
+    }
+    //end Large
+    
+    @include respond-to(x-large) {
+
+        .trackWrapper{
+            @include cols(1, 4);
+        }
+        
+
+    }
+    //end Large
+
+}

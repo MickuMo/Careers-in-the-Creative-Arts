@@ -1,0 +1,81 @@
+article#scheduleContent {
+    h2 {
+        margin-left: 2%;
+    }
+    .session .time {
+        margin-bottom: 1em;
+    }
+    .time {
+        font-style: italic;
+        margin-bottom: 0;
+    }
+    section.track .cWriting {
+
+        
+    }
+    
+    section.track .fArts {
+
+        
+    }
+    
+    section.track .pArts {
+
+        
+    }
+    
+    section.track .mArts {
+
+        
+    }
+    
+    section.opening,
+    .lunch,
+    .closing {
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 10px;
+    }
+    section.session {
+         
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 10px;
+    }
+    .session h4 {
+        margin-bottom: 0;
+    }
+    
+    // 	==========================================
+	//	SMALL LAYOUT
+	//	==========================================
+	@include respond-to(small){
+        
+		
+
+	}
+	//end small
+
+
+
+	// 	==========================================
+	//	MEDIUM LAYOUT
+	//	==========================================
+	@include respond-to(medium){
+
+		
+
+	}
+	//end Medium
+
+
+
+
+	// 	==========================================
+	//	LARGE LAYOUT
+	//	==========================================
+	@include respond-to(large){
+        
+		
+
+	}
+	//end Large
+}

@@ -1,0 +1,93 @@
+main#videosContent {
+    .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        /*16:9*/
+        padding-top: 25px;
+        height: 0;
+    }
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5%;
+    }
+    p {
+        margin: 10px 0 10px 0;
+    }
+    h3.cWriting {
+        margin-bottom: 10px;
+    }
+    h3.fArts {
+        margin-bottom: 10px;
+    }
+    h3.pArts {
+        margin-bottom: 10px;
+    }
+    h3.mArts {
+        margin-bottom: 10px;
+    }
+    /*
+================
+Videos first row
+================
+*/
+    section.top {
+         
+        padding: 0 10px 5px 10px;
+    }
+    /*
+================
+Videos second row
+================
+*/
+    section.middle {
+        padding: 0 10px 5px 10px;
+    }
+    /*
+================
+Videos last row
+================
+*/
+    section.bottem {
+         
+        padding: 0 10px 5px 10px;
+    }
+    
+    // 	==========================================
+	//	SMALL LAYOUT
+	//	==========================================
+	@include respond-to(small){
+        
+		
+
+	}
+	//end small
+
+
+
+	// 	==========================================
+	//	MEDIUM LAYOUT
+	//	==========================================
+	@include respond-to(medium){
+
+		
+
+	}
+	//end Medium
+
+
+
+
+	// 	==========================================
+	//	LARGE LAYOUT
+	//	==========================================
+	@include respond-to(large){
+        
+		
+
+	}
+	//end Large
+}

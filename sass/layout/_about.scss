@@ -1,0 +1,97 @@
+main#aboutContent {
+    .mapWrapper {
+        position: relative;
+        padding-bottom: 90%;
+        padding-top: 10px;
+        margin-bottom: 5%;
+        height: 0;
+    }
+    .mapWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5%;
+    }
+    h4 {
+        margin-bottom: 10px;
+    }
+    /*
+==================
+ Conference Style
+==================*/
+    .conference {
+        padding: 5px 10px 5px 10px;
+    }
+    /*
+================
+Date Style
+================*/
+    .date {
+        padding: 5px 10px 5px 10px;
+    }
+    .date p {
+        font-style: italic;
+    }
+    /*
+=============
+Location Style
+=============*/
+    .location {
+        padding: 5px 10px 5px 10px;
+    }
+    .location a {
+        color: #0030d0;
+    }
+    .location p a {
+        color: #000;
+    }
+    /*
+=============
+Map Style
+=============*/
+    .map {
+        padding: 5px 10px 5px 10px;
+    }
+    /*
+================
+Directions Style
+================*/
+    .directions {
+        padding: 5px 10px 5px 10px;
+    }
+    .directions a {
+        color: $medBlue;
+    }
+    p.details {
+        color: $lightBlue;
+    }
+    p.options {
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    
+    	// 	==========================================
+	//	MEDIUM LAYOUT
+	//	==========================================
+	@include respond-to(medium){
+
+		
+
+	}
+	//end Medium
+
+
+
+
+	// 	==========================================
+	//	LARGE LAYOUT
+	//	==========================================
+	@include respond-to(large){
+        
+		
+
+	}
+	//end Large
+}

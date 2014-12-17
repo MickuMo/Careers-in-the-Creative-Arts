@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,600,800);
+
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+
+// icon-fonts
+@import url(http://weloveiconfonts.com/api/?family=entypo|iconicfill);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: 'IconicFill', sans-serif;
+}

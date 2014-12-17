@@ -1,0 +1,66 @@
+.speaker img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.clear{
+    clear:both;
+}
+
+section.speakers {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+
+section.creative-arts, .performing-arts {
+    background-color: rgba(222, 235, 239, 0.52);
+}
+
+.speaker {
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+/*
+=============================
+Creative Arts Speaker's Style
+=============================
+*/
+
+section.creative-arts h3{
+    color:#57b3e3;
+    margin-bottom: 8px;
+}
+
+/*
+=============================
+Fine Arts Speaker's Style
+=============================
+*/
+
+section.fine-arts h3{
+    color:#dd8438;
+    margin-bottom: 8px;
+}
+
+/*
+=============================
+Performing Arts Speaker's Style
+=============================
+*/
+
+section.performing-arts h3{
+    color:#23a704;
+    margin-bottom: 8px;
+}
+
+/*
+=============================
+Media Arts Speaker's Style
+=============================
+*/
+
+section.media-arts h3{
+    color:#8833c7;
+    margin-bottom: 8px;
+}

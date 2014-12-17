@@ -1,0 +1,93 @@
+main#indexContent {
+    h1 {
+        margin: 0 0 10px 10px;
+    }
+    /*=========
+Introduction style
+===========*/
+    .intro { 
+        padding: 10px 10px 1px 10px;
+    }
+    /*=========
+Date style
+===========*/
+    .date {
+        padding: 10px 10px 0 10px;
+    }
+    .date p {
+        font-style: italic;
+    }
+    /*=========
+Location style
+===========*/
+    .location {
+         
+        padding: 0 10px 0 10px;
+    }
+    /*=========
+Date style
+===========*/
+    .featuredSpeaker {
+        padding: 0 10px 10px 10px;
+    }
+    /*=========
+Workshop style
+===========*/
+    .workshopWrapper {
+        clear: both;
+        padding: 0 10px 10px 10px;
+    }
+    section.cWriting h4 {
+        background-color: #FFDF73;
+    }
+    section.fArts h4 {
+        background-color: #FFDF73;
+    }
+    section.pArts h4 {
+        background-color: #FFDF73;
+    }
+    section.mArts h4 {
+        background-color: #FFDF73;
+    }
+    .speakers {
+        margin-left: 2%;
+        width: 45%;
+        float: left;
+    }
+    
+    // 	==========================================
+	//	SMALL LAYOUT
+	//	==========================================
+	@include respond-to(small){
+        
+		
+
+	}
+	//end small
+
+
+
+	// 	==========================================
+	//	MEDIUM LAYOUT
+	//	==========================================
+	@include respond-to(medium){
+
+		
+
+	}
+	//end Medium
+
+
+
+
+	// 	==========================================
+	//	LARGE LAYOUT
+	//	==========================================
+	@include respond-to(large){
+        
+		
+
+	}
+	//end Large
+
+}

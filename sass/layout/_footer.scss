@@ -1,0 +1,18 @@
+/* ================================================================
+   Style for all footers
+   ================================================================
+*/
+
+footer {
+    clear: both;
+    width: 100%;
+    color: $lightPur;
+    background-color: $darkPur;
+    padding: 0 10px;
+    
+    .createdby {
+        a: hover {
+            color: $baseColor;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.videoWrapper{
+    position: relative;
+    padding-bottom: 56.25%; /*16:9*/
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    margin-bottom: 5%;
+}
+
+p {
+    margin: 10px 0 10px 0;
+}
+
+h3.cWriting{
+    color:#57b3e3;
+    margin-bottom:10px;
+}
+
+h3.fArts{
+    color:#dd8438;
+    margin-bottom:10px;
+}
+
+h3.pArts{
+    color:#23a704;
+    margin-bottom:10px;
+}
+
+h3.mArts{
+    color:#8833c7;
+    margin-bottom:10px;
+}
+/*
+================
+Videos first row
+================
+*/
+section.top {
+    background-color: rgba(222, 235, 239, 0.52);
+    padding: 0 10px 5px 10px;
+}
+
+/*
+================
+Videos second row
+================
+*/
+section.middle {
+    padding: 0 10px 5px 10px;
+}
+
+/*
+================
+Videos last row
+================
+*/
+section.bottem {
+    background-color: rgba(222, 235, 239, 0.52);
+    padding: 0 10px 5px 10px;
+}
